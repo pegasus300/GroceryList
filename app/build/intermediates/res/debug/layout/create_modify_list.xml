@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:baselineAligned="false" 
+    android:orientation="vertical" >
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" 
+        android:transcriptMode="alwaysScroll"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="text" >
+    </EditText>
+    <Button
+        android:id="@+id/add_to_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_button" >
+        
+    </Button>
+    <Button
+        android:id="@+id/delete_from_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_button" >
+        
+    </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout><!-- From: file:/C:/Users/Will/AndroidstudioProjects/Grocery_List/app/src/main/res/layout/create_modify_list.xml -->
